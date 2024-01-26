@@ -1,6 +1,9 @@
 import React from 'react'
-import background from './../../../assets/images/background.png';
+
+import background from './../../assets/images/background.png';
+
 import css from './StartPage.module.css';
+
 
 const StartPage = () => {
   return (

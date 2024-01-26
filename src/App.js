@@ -1,12 +1,14 @@
-import css from './App.module.css';
-import Layout from './components/Layout/Layout';
-import NotFoundPage from './components/Pages/NotFoundPage/NotFoundPage';
 import {Routes, Route} from "react-router-dom";
+
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+import StartPage from './pages/StartPage/StartPage';
+
+import Layout from './components/Layout/Layout';
 import Users from './components/Users/Users';
 import Resource from './components/Resource/Resource';
 import Menu from './components/Menu/Menu';
-import StartPage from './components/Pages/StartPage/StartPage';
 
+import css from './App.module.css';
 
 
 function App() {

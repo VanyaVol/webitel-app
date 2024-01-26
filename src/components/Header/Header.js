@@ -1,10 +1,10 @@
 import React from 'react';
 
-import css from "./Header.module.css";
-import webitel from "./../../assets/images/webitelLogo.svg";
+import webitel from './../../assets/images/webitelLogo.svg';
 import menuBurger from "./../../assets/images/menu.svg";
 import nightMode from "./../../assets/images/nightLogo.svg";
 
+import css from "./Header.module.css";
 
 
 const Header = () => {

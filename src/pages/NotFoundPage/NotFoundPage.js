@@ -1,11 +1,13 @@
 import React from 'react'
-import notFoundLogo from './../../../assets/images/404.svg';
-import css from './NotFoundPage.module.css';
-import globalStyles from './../../../App.module.css';
 import { Link } from 'react-router-dom';
 
-const NotFoundPage = () => {
+import notFoundLogo from './../../assets/images/404.svg';
 
+import css from './NotFoundPage.module.css';
+import globalStyles from './../../App.module.css';
+
+
+const NotFoundPage = () => {
   return (
     <div className={css.notFound}>
       <img src={notFoundLogo} alt='404 not found' />

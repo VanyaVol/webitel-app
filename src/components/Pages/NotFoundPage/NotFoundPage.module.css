@@ -1,0 +1,35 @@
+.notFound {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.notFound > img {
+    max-height: 361.5px;
+    max-width: 778px;
+}
+
+.notFound > h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-top: 76px;
+}
+
+.notFound > p {
+    margin-top: 4px;
+}
+
+.btn {
+    margin-top: 26px;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    background: hsla( 43 , 90% , 65% , 1);
+}

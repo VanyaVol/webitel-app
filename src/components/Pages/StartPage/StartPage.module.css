@@ -1,0 +1,21 @@
+.preMenu {
+    display: flex;
+    overflow: hidden;
+}
+
+.menu {
+    display: flex;
+    min-height: fit-content;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow-y: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow-y: hidden;
+    min-height: 100%;
+}

@@ -1,16 +1,18 @@
 import React from 'react';
 
 import css from "./Header.module.css";
-import webitelLogo from "./../../assets/images/webitelLogo.svg";
-import burgerMenu from "./../../assets/images/burgerMenu.svg";
+import webitel from "./../../assets/images/webitelLogo.svg";
+import menuBurger from "./../../assets/images/menu.svg";
+import nightMode from "./../../assets/images/nightLogo.svg";
 
 
 
 const Header = () => {
   return (
     <div className={css.Header}>
-      <img src={burgerMenu} className={css.burgerMenu} />
-      <img src={webitelLogo} alt='Webitel logo' className={css.webitelLogo} />
+      <img src={menuBurger} className={css.burgerMenu} alt='Menu' />
+      <img src={webitel} className={css.webitelLogo} alt='Webitel' />
+      <img src={nightMode} className={css.nightLogo} alt='Webitel' />
     </div>
   )
 }

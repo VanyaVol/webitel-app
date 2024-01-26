@@ -1,20 +1,23 @@
 .Header {
-    height: 24px;
     padding: 16px;
     background-color: rgb(209, 213, 224);
     display: flex;
     align-items: center;
     gap: 16px;
+    box-sizing: border-box;
 }
 
 .burgerMenu {
     cursor: pointer;
     display: flex;
-    height: 17px;
-    margin-left: 2px;
 }
 
 .webitelLogo {
     height: 16px;
+    display: flex;
+}
+
+.nightLogo {
+    height: 24px;
     display: flex;
 }

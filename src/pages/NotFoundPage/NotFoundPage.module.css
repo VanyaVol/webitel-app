@@ -16,13 +16,15 @@
 
 .notFound > h2 {
     text-transform: uppercase;
+    font-weight: 400;
     font-size: 1.5em;
-    font-weight: lighter;
     margin-top: 76px;
+    
 }
 
 .notFound > p {
     margin-top: 4px;
+    font-size: 14px;
 }
 
 .btn {

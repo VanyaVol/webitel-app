@@ -1,0 +1,15 @@
+.wrapperBlock {
+    background-color: hsl(225, 20%, 96%);
+    border-radius: 4px;
+    padding: 16px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.textWrapp {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: none;
+}

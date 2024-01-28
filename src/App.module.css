@@ -30,3 +30,12 @@
   border-radius: 4px;
   height: 100vh;
 }
+
+.contentWrapper {
+  display: flex;
+  background-color: hsl(225, 20%, 96%);
+  height: 100px;
+  border-radius: 4px;
+  padding: 16px;;
+  flex-grow: 1;
+}

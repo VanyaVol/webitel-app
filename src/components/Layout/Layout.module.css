@@ -3,3 +3,11 @@
     flex-direction: column;
     height: 100vh;
 }
+
+.layoutBlockOutlet{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 80vh;
+    overflow: hidden;
+}

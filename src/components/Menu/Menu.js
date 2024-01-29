@@ -1,20 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
-const Menu = ({button, setButton}) => {
+const Menu = () => {
   return (
-    <div>
-      <div>
-        Menu
-      </div>
-      <div>
-        <Link to={'users'} onClick={()=>{button===true ? setButton(false) : setButton(false)}}>Users</Link>
-      </div>
-      <div>
-        <Link to={'resource'} onClick={()=>{button===true ? setButton(false) : setButton(false)}}>Resource</Link>
-      </div>
-    </div>
+    <div>Menu</div>
   )
 }
 
-export default Menu;
+export default Menu

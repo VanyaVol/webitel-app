@@ -1,0 +1,28 @@
+.menuHeaderMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.menuHeader > div {
+    display: flex;
+}
+
+.menu {
+    padding: 8px;
+}
+
+.close {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}

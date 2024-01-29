@@ -5,7 +5,7 @@ import menuBurger from "./../../assets/images/menu.svg";
 import nightMode from "./../../assets/images/nightLogo.svg";
 
 import css from "./Header.module.css";
-import Menu from '../Menu/Menu';
+import MenuBurger from '../MenuBurger/MenuBurger';
 
 
 const Header = ({button, setButton}) => {
@@ -18,7 +18,7 @@ const Header = ({button, setButton}) => {
         <img src={nightMode} className={css.nightLogo} alt='Webitel' />
       </div>
       <div className={button===true ? `${css.menuBlock}`:`${css.menuHidden}`}>
-        <Menu button={button} setButton={setButton}/>       
+        <MenuBurger button={button} setButton={setButton}/>       
       </div>
     </div>
   )
